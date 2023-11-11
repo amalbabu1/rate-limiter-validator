@@ -53,7 +53,7 @@ app.use('/', rateLimmiter(configuration), (req, res) => {
 });
 
 app.listen(3335, () => {
-  console.log('Server started at Port 3000');
+  console.log('Server started at Port 3335');
 });
 
 module.exports = app;
